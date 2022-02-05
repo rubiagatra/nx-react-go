@@ -1,0 +1,14 @@
+{
+  "root": "libs/api/greeting",
+  "projectType": "library",
+  "sourceRoot": "libs/api/greeting",
+  "targets": {
+    "test": {
+      "executor": "@nx-go/nx-go:test"
+    },
+    "lint": {
+      "executor": "@nx-go/nx-go:lint"
+    }
+  },
+  "tags": []
+}
